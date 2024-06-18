@@ -1,0 +1,77 @@
+html{
+   font-size: 62.5%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(229, 232, 235);
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   padding: 3rem 2rem;
+}
+
+h1{
+   font-size: 2.5rem;
+}
+
+p{
+   font-size: 1.5rem;
+   width: 55rem;
+   text-align: center;
+   margin: 2rem 0 0;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+}
+
+label, input{
+   font-size: 1.5rem;
+}
+
+label{
+   margin: 2rem 0 1rem;
+}
+
+input{
+   padding: 1rem;
+   border: 1px solid rgb(173, 217, 247);
+   border-radius: 5px;
+}
+
+.ava{
+   margin-bottom: 0;
+}
+
+.radio{
+   margin: .5rem;
+   background-color: rgba(163, 214, 214, 0.137);
+   padding: 1rem;
+   border-radius: 5px;
+}
+
+textarea{
+   padding: 1rem;
+   border: 1px solid rgb(173, 217, 247);
+   border-radius: 5px;
+}
+
+.btn{
+   margin-top: 1rem;
+   padding: .5rem;
+   width: 25%;
+   cursor: pointer;
+}
+

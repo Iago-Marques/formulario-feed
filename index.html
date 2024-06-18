@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/reset.css">
+
+   <title>Feedback do cliente</title>
+</head>
+<body>
+   <div class="container">
+      <h1>Feedback do Cliente</h1>
+
+      <p>Adorariamos saber mais sobre sua experiência como cliente. Sinta-se à vontade para compartilhar sugestões, ideias e oque mais achar relevante.</p>
+      
+      <form action="" autocomplete="off">
+
+         <label for="nome">Nome</label>
+         <input type="text" placeholder="Insira seu nome"name="nome" id="nome">
+
+         <label for="sNome">Sobrenome</label>
+         <input type="text" placeholder="Insira seu sobrenome" name="sNome" id="sNome">
+
+         <label for="email">Email</label>
+         <input type="email" placeholder="Insira seu email" name="email" id="email" required>
+
+         <label class="ava">Como vovê avaliaria nossos serviços?</label>
+
+         <label class="radio"><input type="radio" name="ava" id="ava"> Excelente</label>
+         <label class="radio"><input type="radio" name="ava" id="ava"> Muito bom</label>
+         <label class="radio"><input type="radio" name="ava" id="ava"> Bom</label>
+         <label class="radio"><input type="radio" name="ava" id="ava"> Justo</label>
+         <label class="radio"><input type="radio" name="ava" id="ava"> Ruim</label>
+
+         <label>Descreva sua experiência</label>
+         <textarea placeholder="Insira seu texto" name="exp" id="exp" minlength="10" maxlength="1000" rows="8"></textarea>
+
+         <button class="btn" type="submit">Enviar</button>
+
+   </form>
+   </div>
+   
+
+</body>
+</html>
